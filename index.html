@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@600;700&display=swap"
       rel="stylesheet"
     />
-    <title>Kamel  Portfolio</title>
+    <title>Kamel Portfolio</title>
   </head>
   <body class="bg-body text-white font-poppins pb-12">
     <header class="py-6">
@@ -28,8 +28,8 @@
         <div class="text-lg">Kamel Laïdi</div>
         <div class="hidden md:flex space-x-12 items-center">
           <a href="#" class="text-selected-text">Home</a>
-          <a href="#work">My work</a>
-          <a href="#clients">Clients</a>
+          <a href="#work">Profil</a>
+          <a href="#clients">Projets</a>
           <a href="#hire"
             ><button class="px-6 py-2 bg-theme font-bold">Contact</button></a
           >
@@ -64,7 +64,7 @@
               class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"
             >
               <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0"
-                >Work</span
+                >Profil</span
               >
             </a>
 
@@ -73,7 +73,7 @@
               class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"
             >
               <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0"
-                >Clients</span
+                >Projets</span
               >
             </a>
 
@@ -82,7 +82,7 @@
               class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"
             >
               <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0"
-                >Hire</span
+                >Contact</span
               >
             </a>
           </div>
@@ -98,13 +98,15 @@
             ensemble
           </h1>
           <div class="w-full flex justify-center md:justify-start">
+            <a href="#clients">
             <button
               class="px-8 py-4 bg-theme text-white font-bold mt-12 flex items-center space-x-3"
             >
               <i class="fa-solid fa-person-digging"></i>
 
-              <span>My work</span>
+              <span>Mes projets</span>
             </button>
+          </a>
           </div>
         </div>
         <img
@@ -115,24 +117,91 @@
       </div>
     </div>
 
-    <!--my work-->
+    <!-- mon profil -->
 
     <div
       class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"
     >
       <section class="w-full">
-        <h2 id="work" class="secondary-title">My work</h2>
+        <h2 id="work" class="secondary-title">Mon profil</h2>
         <p class="section-paragraph">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Necessitatibus mollitia delectus reprehenderit? Quia, incidunt
-          asperiores? Inventore harum non rerum, quos excepturi laborum aperiam
-          vero perspiciatis sint enim qui voluptas quo, quisquam, necessitatibus
-          quod laboriosam. Asperiores voluptate facere ipsum repudiandae facilis
-          recusandae minus. Aliquid explicabo minus voluptates praesentium?
-          Ipsum, enim placeat!
+          Hello World, je suis Kamel LaÏdi, développeur web junior. En
+          reconversion pour devenir dévéloppeur depuis début 2022, j’ai commencé à
+          m'auto-former sur les fondamentaux (HTML / CSS) puis j’ai intégré
+          l'école O'Clock pour une aventure de 6 mois en télé-présentiel qui m’a
+          permis de découvrir le language Javascript et travailler sur tout ce qui l'entoure de la partie back avec NodeJS et PostSQL à la partie front avec JS Vanilla et React. 
+          Actuellement, je prépare notre projet de fin de formation qui consiste à créer une app web From Scratch en utilisant nos acquis. Plutôt attiré par le côté front-end, je souhaite
+          prochainement de travailler sur React JS afin de créer des contenus
+          dynamiques pour différents projets. N’hésitez pas à parcourir mon site
+          si vous souhaitez en savoir plus sur mes compétences. Vous pouvez
+          également me laisser un message dans la partie Contact.
         </p>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-24">
+          <!-- <img
+            src="https://images.unsplash.com/photo-1586281380117-5a60ae2050cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+            alt="projet"
+          />
           <img
+            src="https://images.unsplash.com/photo-1586281380117-5a60ae2050cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+            alt="projet"
+          /> -->
+
+          
+
+          <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+                <img class="rounded-t-lg" src="/img/front.jpg" alt="">
+            </a>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Front-End</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">HTML, CSS, Javascript, React, Redux</p>
+
+            </div>
+          </div>
+        
+          <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+                <img class="rounded-t-lg" src="/img/back.jpg" alt="">
+            </a>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Back-End</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">NodeJS, Express, PostgreSQL, Sequelize, EJS</p>
+
+            </div>
+          </div>
+
+          <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+                <img class="rounded-t-lg" src="/img/others.jpg" alt="">
+            </a>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Others Dev Skills</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">GitHub, Linux, Visual Studio Code, Thunder Client</p>
+
+            </div>
+          </div>
+          <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+                <img class="rounded-t-lg" src="/img/soft.jpg" alt="">
+            </a>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Softs Skills</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Force de persuasion, aisance relationelle, persévérance, goût du challenge</p>
+
+            </div>
+          </div>
+        
+        
+
+          <!-- <img
             src="https://images.unsplash.com/photo-1586281380117-5a60ae2050cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
             alt="projet"
           />
@@ -147,15 +216,7 @@
           <img
             src="https://images.unsplash.com/photo-1586281380117-5a60ae2050cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
             alt="projet"
-          />
-          <img
-            src="https://images.unsplash.com/photo-1586281380117-5a60ae2050cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-            alt="projet"
-          />
-          <img
-            src="https://images.unsplash.com/photo-1586281380117-5a60ae2050cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-            alt="projet"
-          />
+          /> -->
         </div>
       </section>
     </div>
@@ -166,42 +227,80 @@
       class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"
     >
       <section class="w-full">
-        <h2 id="clients" class="secondary-title">Clients</h2>
+        <h2 id="clients" class="secondary-title">Projets</h2>
 
         <p class="section-paragraph">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, vero.
+          Vous trouvez ci-dessous la liste des différents projets que j'ai développé en cours ainsi que d'autres projets personnels
         </p>
+
+        
 
         <div class="space-y-12 my-16">
           <div
-            class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap"
+          class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap"
           >
+          <a href="https://kamelflix.netlify.app/" target="_blank">
             <div class="mb-6 lg:mb-0">
-              <i class="fa-brands fa-apple fa-2xl"></i>
+              <!-- <i class="fa-brands fa-apple fa-2xl"></i> -->
+              <img src="/img/netflix.jpg" alt="netflix-clone" class="w-44" >
             </div>
 
             <div
               class="flex flex-wrap justify-center text-center lg:text-left lg:block"
             >
-              <h3 class="text-white text-3xl font-semibold">Apple, inc.</h3>
+              <h3 class="text-white text-3xl font-semibold">KamelFlix, inc.</h3>
 
               <div
                 class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8"
               >
-                <div class="badge">UI/UX</div>
+              
+              <div class="badge">Front-end</div>
+              <div class="badge">React</div>
+              <div class="badge">Tailwind</div>
 
-                <div class="badge">Front-end</div>
-              </div>
+            </div>
 
               <p class="text-secondary">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
-                commodi tenetur repudiandae nihil eos adipisci perspiciatis
-                dolores laboriosam reiciendis.
+                Un projet qui a pour but de créer un clone de Netflix.
               </p>
+            </a>
             </div>
           </div>
 
           <div
+          class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap"
+        >
+          <div class="mb-6 lg:mb-0">
+            <!-- <i class="fa-brands fa-apple fa-2xl"></i> -->
+            <img src="/img/quizz.jpg" alt="netflix-clone" class="w-44" >
+          </div>
+
+          <div
+            class="flex flex-wrap justify-center text-center lg:text-left lg:block"
+          >
+            <h3 class="text-white text-3xl font-semibold">K'Quizz</h3>
+
+            <div
+              class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8"
+            >
+            
+            <div class="badge">Back-end</div>
+            <div class="badge">EJS</div>
+            <div class="badge">PostgreSQL</div>
+
+          </div>
+
+            <p class="text-secondary">
+              Un projet en cours pour manipuler les bases de données SQL et rendre un site dynamique.
+            </p>
+          </div>
+        </div>
+
+
+
+          <!-- l'autre bloc -->
+
+          <!-- <div
             class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap"
           >
             <div class="mb-6 lg:mb-0">
@@ -227,7 +326,7 @@
                 dolores laboriosam reiciendis.
               </p>
             </div>
-          </div>
+          </div> -->
         </div>
       </section>
     </div>
@@ -279,7 +378,7 @@
             <!-- Mail et contact -->
             <p class="text-secondary">555-555-1234</p>
             <!-- R&seaux sociaux -->
-            <a href="">kamellaidi@outlook.fr</a>
+            <a href="mailto:kamellaidi@outlook.fr">kamellaidi@outlook.fr</a>
 
             <div class="flex mt-20 space-x-6">
               <a href="#">
