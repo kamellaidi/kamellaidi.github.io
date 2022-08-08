@@ -124,16 +124,17 @@
     >
       <section class="w-full">
         <h2 id="work" class="secondary-title">Mon profil</h2>
-        <p class="section-paragraph">
+        <p class="section-paragraph text-left">
           Hello World, je suis Kamel LaÏdi, développeur web junior. En
-          reconversion pour devenir dévéloppeur depuis début 2022, j’ai commencé à
+          reconversion pour devenir dévéloppeur. Depuis début 2022, j’ai commencé à
           m'auto-former sur les fondamentaux (HTML / CSS) puis j’ai intégré
-          l'école O'Clock pour une aventure de 6 mois en télé-présentiel qui m’a
-          permis de découvrir le language Javascript et travailler sur tout ce qui l'entoure de la partie back avec NodeJS et PostSQL à la partie front avec JS Vanilla et React. 
+          l'école O'Clock pour une aventure de 6 mois en télé-présentiel au sein d'une classe virtuelle ce qui m’a
+          permis de découvrir le language Javascript et travailler sur tout ce qui l'entoure de la partie back avec NodeJS et PostSQL à la partie front du JS Vanilla à React. 
           Actuellement, je prépare notre projet de fin de formation qui consiste à créer une app web From Scratch en utilisant nos acquis. Plutôt attiré par le côté front-end, je souhaite
-          prochainement de travailler sur React JS afin de créer des contenus
-          dynamiques pour différents projets. N’hésitez pas à parcourir mon site
-          si vous souhaitez en savoir plus sur mes compétences. Vous pouvez
+          prochainement travailler sur React JS afin de créer des contenus
+          dynamiques pour différents projets tout en continuant à me former sur les autres frameworks comme Vue ou Angular sur mes journées de veilles. N’hésitez pas à parcourir mon site
+          si vous souhaitez en savoir plus sur mes compétences. 
+          Vous pouvez
           également me laisser un message dans la partie Contact.
         </p>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-24">
@@ -299,10 +300,12 @@
         <div
         class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap"
       >
+      <a href="https://kamel-todolist.netlify.app/" target="_blank">
         <div class="mb-6 lg:mb-0">
           <!-- <i class="fa-brands fa-apple fa-2xl"></i> -->
           <img src="/img/kamel-todolist.jpg" alt="netflix-clone" class="w-44" >
         </div>
+      
 
         <div
           class="flex flex-wrap justify-center text-center lg:text-left lg:block"
@@ -321,7 +324,9 @@
           <p class="text-secondary">
             Petite todo-list crée totalement en JS.
           </p>
+        </a>
         </div>
+
       </div>
 
 
@@ -365,18 +370,20 @@
       class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"
     >
       <section class="w-full">
-        <h2 id="hire" class="secondary-title">Hire me</h2>
+        <h2 id="hire" class="secondary-title">Contactez-moi</h2>
         <p class="section-paragraph">
-          Feel free to contact me any time, through any methods below.
+          Vous pouvez me laisser un message via ce formulaire ou sur l'un de mes réseaux sociaux.
         </p>
+
+        <form action="https://formspree.io/f/xeqdjygz" method="POST">
 
         <div class="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-24">
           <div class="space-y-12">
             <div>
               <label class="text-white block mb-6 text-xl font-bold"
-                >Name</label
+                >Nom de contact</label
               >
-              <input
+              <input type="text" name="name"
                 class="w-full border border-input-border bg-input px-4 py-4"
               />
             </div>
@@ -387,6 +394,7 @@
               <input
                 type="email"
                 class="w-full border border-input-border bg-input px-4 py-4"
+                name="email"
               />
             </div>
             <div>
@@ -394,25 +402,29 @@
                 >Message</label
               >
               <input
-                type="email"
+                type="text"
                 class="w-full border border-input-border bg-input px-4 py-4"
+                name="message"
               />
             </div>
-            <button class="px-6 py-2 bg-theme text-white font-bold">
-              Send it !
+            <button type="submit" class="px-6 py-2 bg-theme text-white font-bold">
+              Envoyez
             </button>
           </div>
+        </form>
+
           <div class="mt-12">
             <!-- Mail et contact -->
-            <p class="text-secondary">555-555-1234</p>
+            <p class="text-secondary">Mes réseaux sociaux</p>
             <!-- R&seaux sociaux -->
-            <a href="mailto:kamellaidi@outlook.fr">kamellaidi@outlook.fr</a>
 
             <div class="flex mt-20 space-x-6">
-              <a href="#">
+              <a href="https://www.linkedin.com/in/kamel-laidi/"
+                target="_blank">
                 <i class="fa-brands fa-linkedin fa-2xl"></i>
               </a>
-              <a href="#">
+              <a href="https://github.com/kamellaidi"
+              target="_blank">
                 <i class="fa-brands fa-github fa-2xl"></i>
               </a>
             </div>
