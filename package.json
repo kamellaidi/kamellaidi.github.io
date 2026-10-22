@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "tailwindcss": "^3.1.6"
+    "tailwindcss": "^4.3.3"
   },
   "name": "tail-portfolio",
   "version": "1.0.0",
